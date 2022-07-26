@@ -45,7 +45,7 @@
 
 * Comando: Dojo.find(2).destroy
 
-(0.4ms)  SELECT sqlite_version(*)
+* (0.4ms)  SELECT sqlite_version(*)
   Dojo Load (0.3ms)  SELECT "dojos".* FROM "dojos" WHERE "dojos"."id" = ? LIMIT ?  [["id", 2], ["LIMIT", 1]]
   TRANSACTION (0.1ms)  begin transaction
   Ninja Load (0.2ms)  SELECT "ninjas".* FROM "ninjas" WHERE "ninjas"."dojo_id" = ?  [["dojo_id", 2]]

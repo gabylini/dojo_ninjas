@@ -1,3 +1,5 @@
+## Comandos ejecutados en consola de Rails
+
 #### Creación Dojos:
 * Dojo.create(name:"CodingDojo Silicon Valley", city:"Mountain View", state:"CA")
 * Dojo.create(name:"CodingDojo Seattle", city:"Seattle", state:"WA")

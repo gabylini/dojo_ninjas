@@ -30,7 +30,7 @@
 
 * Dojo.create!(name:"", city:"", state:"")
 
-**_C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/activerecord-6.1.6.1/lib/active_record/validations.rb:80:in `raise_validation_error': Validation failed: Name can't be blank, City can't be blank, State can't be blank, State is the wrong length (should be 2 characters) (ActiveRecord::RecordInvalid)_**
+* Ruby31-x64/lib/ruby/gems/3.1.0/gems/activerecord-6.1.6.1/lib/active_record/validations.rb:80:in `raise_validation_error': Validation failed: Name can't be blank, City can't be blank, State can't be blank, State is the wrong length (should be 2 characters) (ActiveRecord::RecordInvalid)_**
 
 #### Obtener ninjas de cualquier dojo
 

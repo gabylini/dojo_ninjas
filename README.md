@@ -12,17 +12,31 @@
 * Ninja.create(first_name:"Cristian, last_name:"Uribe",dojo_id:2)
 * Ninja.create(first_name:"Esthephanie", last_name:"Jimenez",dojo_id:2)
 
-* Ninja.create(first_name:"Yorch", last_name:"Sepulveda",dojo_id:3)
-* Ninja.create(first_name:"Cristian, last_name:"Uribe",dojo_id:3)
-* Ninja.create(first_name:"Esthephanie", last_name:"Jimenez",dojo_id:3)
+* Ninja.create(first_name:"Marcela", last_name:"Ortiz",dojo_id:3)
+* Ninja.create(first_name:"Gabriel", last_name:"Rojas",dojo_id:3)
+* Ninja.create(first_name:"Alejandro", last_name:"Salas",dojo_id:3)
 
-#### Creación Dojos comando new:
+#### Creación Dojos con comando new
+* dojo = Dojo.new(name:"CodingDojo Silicon Valley", city:"Mountain View", state:"CA")
+* dojo.save
 
-#### Eliminación Dojos comando new:
+#### Eliminación de dojo
 
+* Dojo.find(4).destroy
 
+#### Validaciones de dojo
 
+* Dojo.create!(name:"", city:"", state:"")
 
+**_C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/activerecord-6.1.6.1/lib/active_record/validations.rb:80:in `raise_validation_error': Validation failed: Name can't be blank, City can't be blank, State can't be blank, State is the wrong length (should be 2 characters) (ActiveRecord::RecordInvalid)_**
+
+#### Obtener ninjas de cualquier dojo
+
+* Dojo.find(1).ninjas
+
+#### Obtener ninjas de dojo id 2 en orden descendiente
+
+* Dojo.find(2).ninjas.order("created_at desc")
 
 
 #### Al modificar el modelo dojo y eliminar el dojo con id 2 el resultado es:

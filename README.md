@@ -1,3 +1,30 @@
+#### Creación Dojos:
+* Dojo.create(name:"CodingDojo Silicon Valley", city:"Mountain View", state:"CA")
+* Dojo.create(name:"CodingDojo Seattle", city:"Seattle", state:"WA")
+* Dojo.create(name:"CodingDojo New York", city:"New York", state:"NY")
+
+#### Creación Ninja:
+* Ninja.create(first_name:"Dante", last_name:"Navarro",dojo_id:1)
+* Ninja.create(first_name:"Gaby", last_name:"Rodriguez",dojo_id:1)
+* Ninja.create(first_name:"Sara", last_name:"Castro",dojo_id:1)
+
+* Ninja.create(first_name:"Yorch", last_name:"Sepulveda",dojo_id:2)
+* Ninja.create(first_name:"Cristian, last_name:"Uribe",dojo_id:2)
+* Ninja.create(first_name:"Esthephanie", last_name:"Jimenez",dojo_id:2)
+
+* Ninja.create(first_name:"Yorch", last_name:"Sepulveda",dojo_id:3)
+* Ninja.create(first_name:"Cristian, last_name:"Uribe",dojo_id:3)
+* Ninja.create(first_name:"Esthephanie", last_name:"Jimenez",dojo_id:3)
+
+#### Creación Dojos comando new:
+
+#### Eliminación Dojos comando new:
+
+
+
+
+
+
 #### Al modificar el modelo dojo y eliminar el dojo con id 2 el resultado es:
 
 * Comando: Dojo.find(2).destroy

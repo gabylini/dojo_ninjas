@@ -1,4 +1,4 @@
-#### Al modificar el modelo dojo y eliminar el dojo con id 2 el resultado da lo siguiente:
+#### Al modificar el modelo dojo y eliminar el dojo con id 2 el resultado es:
 
 * Comando: Dojo.find(2).destroy
 
